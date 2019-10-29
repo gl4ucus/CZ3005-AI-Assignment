@@ -1,8 +1,8 @@
 # CZ3005 Artificial Intelligence Assignment
 
-## Assignment 4: Patient with a sympathetic doctor
+## Assignment 3: Subway sandwich interactor
 
-Assume that the prolog script is a sympathetic doctor, conversing with a patient who can answer only yes or no. The doctor should be able to diagnose the patient’s condition while asking question sensitively depending upon patient’s pain level and mood level. You can choose 5 or more different mood considerations (calm, angry, etc.) and 5 or more levels of pain. Five or more diseases should be diagnosable, each disease characterized by 5 or more symptoms.
+The prolog script offers different meal options, sandwich options, meat options, salad options, sauce options, top-up options, sides options etc. to create a customized list of person’s choice. The options should be intelligently selected based on previous choices. For example, if the person chose a veggie meal, meat options should not be offered. If a person chose healthy meal, fatty sauces should not be offered. If a person chose vegan meal, cheese top-up should not be offered. If a person chose value meal, no top-up should be offered.
 
 ## Youtube Video Link
 
