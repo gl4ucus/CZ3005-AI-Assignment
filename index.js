@@ -253,12 +253,6 @@ $('.mytext').on('keydown', function(e) {
       .toLowerCase()
     if (text !== '') {
       insertChat('user', text)
-      if (text.toLowerCase() == 'yes') {
-        progress = 7
-      } else if (text.toLowerCase() == 'no') {
-        insertChat('subway', messages.greetings)
-        progress = 0
-      }
       switch (steps[progress]) {
         case 'meals':
           user_order.meal = text.toUpperCase()
@@ -350,7 +344,6 @@ $('.mytext').on('keydown', function(e) {
           session.query(`asserta(chosen_sauces(${text.toLowerCase()})).`)
           session.query(`ask_topups(X).`)
           session.answer(answer => {
-            console.log(pl.format_answer(answer))
             if (pl.type.is_substitution(answer)) {
               let result = answer.lookup('X')
               if (result == '[]') {
@@ -449,5 +442,3 @@ $('.mytext').on('keydown', function(e) {
 
 // ---- Print Messages
 insertChat('subway', messages.greetings)
-
-const callback = answer => console.log(pl.format_answer(answer))
