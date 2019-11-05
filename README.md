@@ -10,8 +10,11 @@ The prolog script offers different meal options, sandwich options, meat options,
 
 ## Demonstration Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2c4dB52ehAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=RRKJiM9Njr8">
+  <img src="https://img.youtube.com/vi/RRKJiM9Njr8/0.jpg" alt="Click to watch video">
+  </a>
+</div>
 
 ## System Architecture
 
