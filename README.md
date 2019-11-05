@@ -30,7 +30,9 @@ Web Server is hosted on [github pages](https://pages.github.com).
 
 ## Directory Structure
 
-![](directory_structure.png)
+<div align="center">
+  <img src="directory_structure.png">
+</div>
 
 - \_config.yml → configuration file for github pages
 - index.html → file served to user's browser when requested
