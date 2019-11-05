@@ -11,8 +11,8 @@ The prolog script offers different meal options, sandwich options, meat options,
 ## Demonstration Video
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=RRKJiM9Njr8">
-  <img src="https://img.youtube.com/vi/RRKJiM9Njr8/0.jpg" alt="Click to watch video">
+  <a href="https://www.youtube.com/watch?v=IymSPJiq6sw">
+  <img src="https://img.youtube.com/vi/IymSPJiq6sw/0.jpg" alt="Click to watch video">
   </a>
 </div>
 
