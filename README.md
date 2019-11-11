@@ -1,6 +1,4 @@
-# AI Documentation
-
-# CZ3005 Artificial Intelligence Assignment
+# CZ3005 Artificial Intelligence Assignment Documentation
 
 # [Click Here To Go To Live DEMO page](http://okkarmin.github.io/CZ3005-AI-Assignment)
 
@@ -59,6 +57,10 @@ Web Server is hosted on [github pages](https://pages.github.com).
 > Both (subway-prolog.pl & subway-prolog.js) contians the prolog logic.
 >
 > - subway-prolog.js is nothing but subway-prolog.pl converted to JavaScript literal string format
+
+> Built-in predicate, [findall/3](https://www.swi-prolog.org/pldoc/man?predicate=findall/3) is used extensively.
+>
+> findall(X, pred(X), List) - Find possible values of X for given predicate and add to the List
 
 First, implementation/setting up of methods that will be used for appending elements into a list
 
