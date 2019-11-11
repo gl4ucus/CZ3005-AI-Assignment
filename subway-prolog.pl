@@ -9,7 +9,7 @@ value_meal(value).
 vegan_meal(vegan).
 veggie_meal(veggie).
 
-% Possible choice of optiions for each categories
+% Possible choice of options for each categorie
 meals([healthy, normal, value, vegan, veggie]).
 breads([wheat, honey_oat, italian, hearty_italian, flatbread]).
 meats([chicken, beef, ham, bacon, salmon, tuna, turkey]).
