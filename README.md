@@ -6,7 +6,7 @@
 
 The prolog script offers different meal options, sandwich options, meat options, salad options, sauce options, top-up options, sides options etc. to create a customized list of person’s choice. The options should be intelligently selected based on previous choices. For example, if the person chose a veggie meal, meat options should not be offered. If a person chose healthy meal, fatty sauces should not be offered. If a person chose vegan meal, cheese top-up should not be offered. If a person chose value meal, no top-up should be offered.
 
-## Demonstration Video (GUI)
+## GUI Demonstration Video (Click thumbnail to watch)
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=IymSPJiq6sw">
@@ -14,9 +14,13 @@ The prolog script offers different meal options, sandwich options, meat options,
   </a>
 </div>
 
-## Demonstration Video (Console/Terminal)
+## Console/Terminal Demonstration Video (Click thumbnail to watch)
 
-- [ ] Insert Video Here
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=TaL-HkMUmfk">
+  <img src="https://img.youtube.com/vi/TaL-HkMUmfk/0.jpg" alt="Click to watch video">
+  </a>
+</div>
 
 ## System Architecture
 
