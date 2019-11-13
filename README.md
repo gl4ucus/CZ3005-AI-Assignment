@@ -1,6 +1,8 @@
 # CZ3005 Artificial Intelligence Assignment Documentation
 
-# [Click Here To Go To Live DEMO page](http://okkarmin.github.io/CZ3005-AI-Assignment)
+# Okkar Min, U1722504A, TSP5
+
+# [Click Here To Go To Live DEMO page](http://okkarmin.github.io/CZ3005-AI-Assignment) okkarmin.github.io/CZ3005-AI-Assignment
 
 ## Subway Sandwich Interactor
 
