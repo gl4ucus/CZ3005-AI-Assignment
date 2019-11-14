@@ -9,7 +9,7 @@ const subway_avatar = 'https://image.flaticon.com/icons/svg/1995/1995600.svg'
 const messages = {
   greetings: `Hello! 😁
   <br/>
-  Welcome To Subway!
+  Welcome To Subway! 🥖
   <br/>
   <br/>
   Please choose your meal type! 
