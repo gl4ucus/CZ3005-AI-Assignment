@@ -3,6 +3,10 @@ export default `
 append([], Y, Y).
 append([H|X], Y, [H|Z]) :- append(X, Y, Z).
 
+:- dynamic(chosen_meals/1).
+:- dynamic(vegan_meal/1).
+:- dynamic(veggie_meal/1).
+
 % Facts to check conditions
 healthy_meal(healthy).
 value_meal(value).
