@@ -325,6 +325,7 @@ $('.mytext').on('keydown', function(e) {
           session.answer(answer => {
             if (pl.type.is_substitution(answer)) {
               let result = answer.lookup('X')
+              console.log(result)
               if (result == '[[honey_mustard, sweet_onion]]') {
                 insertChat(
                   'subway',
