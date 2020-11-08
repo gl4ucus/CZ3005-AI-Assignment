@@ -1,7 +1,7 @@
 //-- Prolog Session
 import subway_program from './subway-prolog.js'
 const session = pl.create()
-session.consult(subway_program)
+session.consult('./subway-prolog.pl')
 
 //-- Constants and Variables
 const user_avatar = 'https://image.flaticon.com/icons/svg/1400/1400241.svg'
