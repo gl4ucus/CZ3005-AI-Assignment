@@ -275,7 +275,7 @@ $('.mytext').on('keydown', function(e) {
         case 'breads':
           user_order.bread = text.toUpperCase()
           session.query(`asserta(chosen_breads(${text.toLowerCase()})).`)
-          session.query(`ask_meats(X).`)
+          session.query(`meats(X).`)
           session.answer(answer => {
             if (pl.type.is_substitution(answer)) {
               console.log(answer)
