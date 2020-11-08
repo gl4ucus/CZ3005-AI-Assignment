@@ -280,6 +280,7 @@ $('.mytext').on('keydown', function(e) {
             if (pl.type.is_substitution(answer)) {
               console.log(answer)
               let result = answer.lookup('X')
+              console.log(result)
               if (result == '[]') {
                 // vegan or vegie
                 insertChat(
