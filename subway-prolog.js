@@ -1,7 +1,7 @@
 export default `
 % Setting up of list methods for appending
 append([], Y, Y).
-append([H|X], Y, [H|Z]) :- append(X, Y, Z).s
+append([H|X], Y, [H|Z]) :- append(X, Y, Z).
 
 % Facts to check conditions
 healthy_meal(healthy).
