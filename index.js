@@ -2,7 +2,7 @@
 import subway_program from './subway-prolog.js'
 const session = pl.create()
 session.consult('./subway-prolog.pl' {
-    success: function(){}
+    success: function(){},
     error: function(err) {console.log(err)}
 })
 
