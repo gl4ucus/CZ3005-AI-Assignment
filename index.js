@@ -278,6 +278,7 @@ $('.mytext').on('keydown', function(e) {
           session.query(`ask_meats(X).`)
           session.answer(answer => {
             if (pl.type.is_substitution(answer)) {
+              console.log(answer)
               let result = answer.lookup('X')
               if (result == '[]') {
                 // vegan or vegie
